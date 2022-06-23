@@ -7,7 +7,7 @@
 .form {
   padding: 10px;
   height: auto;
-  width: 50%;
+  width: 60%;
   background-color: #4b9e13;
   border-radius: 5px;
   margin: auto;
@@ -24,19 +24,29 @@ h2 {
 }
 .input-label{
     border-radius: 5px;
+    width: 70px;
     border-style: solid;
+}
+@media (min-width: 768px) {
+  .input-label{
+    width: 110%;
+  }
 }
 .flex {
   display: flex;
   justify-content: space-around;
 }
 .btn {
-  margin-left: 75px;
-  
+  margin-left: 45%;
   border-radius: 5px;
   background-color: rgba(31, 7, 77, 0.411);
   border-style: solid;
   color: #ffffff;
+}
+@media( min-width:576px){
+  .btn{
+    margin-left:35%;
+  }
 }
 .btn:hover {
   background-color: #ffffff;
