@@ -45,6 +45,7 @@ function Form({getData}) {
               required
             />
           </label>
+          <br/>
           <label className="label">
             Height(m) : <br />
             <input

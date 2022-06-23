@@ -79,7 +79,9 @@ function App() {
     <div>
       
       <Navbar/>
+      <div style={{padding: "20px"}}>
       <Form getData={onFormSub} />
+      </div>
       {show && (
         <div>
           <BmiScore bmiNo={bmi} bmiName={bmiType} changeWeight={changeWeight} />
